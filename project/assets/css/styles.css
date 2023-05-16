@@ -1,0 +1,37 @@
+.baseLogin {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(101, 101, 101, 0.5) 0%,
+    rgba(217, 217, 219, 0.5) 100%
+  );
+  flex-direction: column;
+}
+.baseLogin .card {
+  width: 50vw;
+}
+
+.baseLogin .card .card-action a {
+  color: rgb(0, 96, 177);
+}
+
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(101, 101, 101, 0.5) 0%,
+    rgb(217, 217, 219, 0.5) 100%
+  );
+}
+
+.headDash {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0;
+}
